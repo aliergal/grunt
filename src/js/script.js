@@ -3,5 +3,5 @@ $(document).ready(function(){
 	$('.reveal').on('click', function(e){
 		e.preventDefault();
 		$('.hidden').slideToggle(speed);
-	})
+	});
 });
